@@ -1,0 +1,106 @@
+/*!*************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./app/_components/NewsList/index.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************/
+.NewsList_list__P92Wt {
+  border-bottom: 1px solid var(--color-border-light);
+}
+.NewsList_list__P92Wt:last-child {
+  border-bottom: none;
+}
+
+.NewsList_link__i9xFL {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 24px 0;
+}
+
+.NewsList_image__Ci96f {
+  width: 200px;
+  height: auto;
+  border-radius: var(--border-radius);
+}
+
+.NewsList_title__nA5E5 {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.NewsList_meta__jIIeK {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+@media (max-width: 640px) {
+  .NewsList_link__i9xFL {
+    display: block;
+    padding: 16px 0;
+  }
+  .NewsList_image__Ci96f {
+    display: none;
+  }
+
+  .NewsList_title__nA5E5 {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 0.4rem;
+  }
+
+  .NewsList_meta__jIIeK {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+}
+/*!*************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./app/_components/Category/index.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************/
+.Category_tag__Q_aX1 {
+  background-color: var(--color-bg-sub);
+  padding: 4px 12px;
+  border-radius: var(--border-radius);
+  white-space: nowrap;
+  font-size: 1rem;
+}
+/*!*********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./app/_components/Date/index.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************/
+.Date_date__ElJv4 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0.8rem 0;
+  font-size: 1rem;
+}
+
+/*!***************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./app/_components/Pagination/index.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************/
+.Pagination_container__AlsiS {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+  margin-top: 24px;
+}
+
+.Pagination_list__5wDb_ {
+  margin: 0 4px;
+}
+
+.Pagination_item__dBgqh {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 36px;
+  height: 36px;
+  border-radius: var(--border-radius);
+}
+
+.Pagination_current__9sq2b {
+  color: var(--color-text-unpainted);
+  background-color: var(--color-button-primary);
+}
+
