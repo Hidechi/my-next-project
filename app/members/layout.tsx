@@ -1,6 +1,5 @@
 import Sheet from "@/app/_components/Sheet";
 import Hero from "../_components/Hero";
-import { title } from "process";
 
 export const metadata = {
   title: "メンバー",
