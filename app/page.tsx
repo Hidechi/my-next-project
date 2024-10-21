@@ -25,7 +25,10 @@ export default async function Home() {
           src="/img-mv.jpg" 
           alt="" 
           width={4000}
-          height={1200}/>     
+          height={1200}
+          priority
+          sizes="100vw"
+          />     
     </section>
     <section className={styles.news}>
       <h2 className={styles.newsTitle}>News</h2>
