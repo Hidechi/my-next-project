@@ -1,8 +1,9 @@
+import { GoogleAnalytics } from '@next/third-parties/google';
 import Sheet from "@/app/_components/Sheet";
 import Hero from "../_components/Hero";
 
 export const metadata = {
-  title: "メンバー",
+  title: 'メンバー',
 }
 
 type Props = {
@@ -14,6 +15,7 @@ export default function RootLayout({ children }: Props) {
     <>
       <Hero title="Members" sub="メンバー" />
       <Sheet>{children}</Sheet>;
+      <GoogleAnalytics gaId="G-YCH6HSWP8X" />
     </>
   );
 }
