@@ -42,7 +42,7 @@ export const getMembersList = async (queries?: MicroCMSQueries) => {
   .getList<Member>({
     endpoint: "members",
     queries,
-  });
+  }); 
   return listData;
 }
 
@@ -63,7 +63,13 @@ export const getNewsDetail = async (
     endpoint: "news",
     contentId,
     queries,
+    customRequestInit: {
+      next: {
+        revalidate: queries?.draftKey === undefined ? 60 : 0,
+      },
+    },
   });
+  
   return  detailData;
 };
 
