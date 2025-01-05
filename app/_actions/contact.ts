@@ -86,7 +86,7 @@ export async function createContactData(_prevState: unknown, formData: FormData)
           },
         ],
       }),
-    },
+    }
   );
 
   try {
