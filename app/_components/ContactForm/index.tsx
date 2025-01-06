@@ -54,18 +54,18 @@ export default function ContactForm() {
           メールアドレス
         </label>
         <input className={styles.textfield} type="text" id="email" name="email" />
-        <div className={styles.item}>
-          <label className={styles.label} htmlFor="message">
-            メッセージ
-          </label>
-          <textarea className={styles.textarea} id="message" name="message" />
-        </div>
-        <div className={styles.actions}>
-          {state.status === "error" && (
-            <p className={styles.error}>{state.message}</p>
-          )}
+      </div>
+      <div className={styles.item}>
+        <label className={styles.label} htmlFor="message">
+          メッセージ
+        </label>
+        <textarea className={styles.textarea} id="message" name="message" />
+      </div>
+      <div className={styles.actions}>
+        {state.status === "error" && (
+          <p className={styles.error}>{state.message}</p>
+        )}
           <input type="submit" value="送信する" className={styles.button} />
-        </div>
       </div>
     </form>
   );
