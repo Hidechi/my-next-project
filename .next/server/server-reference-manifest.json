@@ -1,5 +1,14 @@
 {
-  "node": {},
+  "node": {
+    "5efa3d8cc3645d55a4d817fbc38148b616a78284": {
+      "workers": {
+        "app/contact/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fuser%2Fmy-next-project%2Fapp%2F_actions%2Fcontact.ts%22%2C%5B%22createContactData%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/contact/page": "action-browser"
+      }
+    }
+  },
   "edge": {},
-  "encryptionKey": "G29DBXSKqWIKR7rlQUhrModHmo2uw4snjtyjTBrsiRk="
+  "encryptionKey": "AeNv8w/MilPw7LKkLR/nsoqAnCsZrIuPoxAQRyO0ce8="
 }

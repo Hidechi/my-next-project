@@ -7,7 +7,7 @@ import Footer from "./_components/Footer";
 //import "./page.module.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL('http://localhost:3000'),
+  metadataBase: new URL('https://my-next-project-35ec.vercel.app/'),
   title: {
     template: '%s | シンプルなコーポレートサイト',
     default: 'シンプルなコーポレートサイト',
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     images: ['/ogp.png'],
   },
   alternates: {
-    canonical: 'http://localhost:3000',
+    canonical: 'https://my-next-project-35ec.vercel.app/',
   },
 };
 
