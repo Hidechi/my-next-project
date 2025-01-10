@@ -41,6 +41,18 @@
       "static/chunks/main-app.js",
       "static/css/app/contact/layout.css",
       "static/chunks/app/contact/layout.js"
+    ],
+    "/news/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/news/page.css",
+      "static/chunks/app/news/page.js"
+    ],
+    "/news/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/news/layout.css",
+      "static/chunks/app/news/layout.js"
     ]
   }
 }
